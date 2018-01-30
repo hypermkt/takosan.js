@@ -1,5 +1,5 @@
 {
-  "name": "takosanjs",
+  "name": "takosan.js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hypermkt/takosanjs.git"
+    "url": "git+ssh://git@github.com/hypermkt/takosan.js.git"
   },
   "author": "",
   "license": "MITG",
   "bugs": {
-    "url": "https://github.com/hypermkt/takosanjs/issues"
+    "url": "https://github.com/hypermkt/takosan.js/issues"
   },
-  "homepage": "https://github.com/hypermkt/takosanjs#readme",
+  "homepage": "https://github.com/hypermkt/takosan.js#readme",
   "dependencies": {
     "axios": "^0.17.1"
   }

@@ -1,1 +1,1 @@
-# takosanjs
+# takosan.js

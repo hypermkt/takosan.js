@@ -10,7 +10,7 @@
     "babel-preset-env": "^1.6.1"
   },
   "scripts": {
-    "start": "babel src/takosan.js --out-file takosan.js"
+    "build": "babel src/takosan.js --out-file takosan.js"
   },
   "repository": {
     "type": "git",

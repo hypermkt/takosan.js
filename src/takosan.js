@@ -9,11 +9,11 @@ class Takosan {
   }
 
   privmsg() {
-    let instance = axios.create({
+    let client = axios.create({
       baseUrl: this.url
     });
 
-    axios.post('/privmsg', {
+    client.post('/privmsg', {
       channel: this.channel,
       message: this.message,
       name: this.name,

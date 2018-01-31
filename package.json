@@ -2,7 +2,7 @@
   "name": "takosan",
   "version": "1.0.0",
   "description": "A Node.js wrapper for Takosan",
-  "main": "src/takosan.js",
+  "main": "takosan.js",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

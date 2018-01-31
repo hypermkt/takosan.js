@@ -7,8 +7,8 @@ A Node.js wrapper for [Takosan](https://github.com/kentaro/takosan).
 ```js
 import Takosan from 'takosanjs';
 
-takosan = new Takoasn({
-  url: 'http://irc.example.com/4649',
+takosan = new Takosan({
+  url: 'http://irc.example.com:4649',
   channel: '#example'
 });
 takosan.privmsg('Hello world.');

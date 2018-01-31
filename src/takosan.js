@@ -10,7 +10,7 @@ class Takosan {
 
   privmsg() {
     let client = axios.create({
-      baseUrl: this.url
+      baseURL: this.url
     });
 
     client.post('/privmsg', {
@@ -29,3 +29,4 @@ class Takosan {
 }
 
 export default Takosan;
+

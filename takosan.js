@@ -20,7 +20,7 @@ class Takosan {
 
   privmsg() {
     let client = _axios2.default.create({
-      baseUrl: this.url
+      baseURL: this.url
     });
 
     client.post('/privmsg', {

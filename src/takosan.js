@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 class Takosan {
-  set options(options) {
+  constructor(options) {
     this.url = options.url;
     this.channel = options.channel;
     this.icon = options.icon;

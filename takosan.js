@@ -11,7 +11,7 @@ var _axios2 = _interopRequireDefault(_axios);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 class Takosan {
-  set options(options) {
+  constructor(options) {
     this.url = options.url;
     this.channel = options.channel;
     this.icon = options.icon;
@@ -19,11 +19,11 @@ class Takosan {
   }
 
   privmsg() {
-    let instance = _axios2.default.create({
+    let client = _axios2.default.create({
       baseUrl: this.url
     });
 
-    _axios2.default.post('/privmsg', {
+    client.post('/privmsg', {
       channel: this.channel,
       message: this.message,
       name: this.name,

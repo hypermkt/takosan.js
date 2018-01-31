@@ -8,14 +8,14 @@ class Takosan {
     this.name = options.name;
   }
 
-  privmsg() {
+  privmsg(message) {
     let client = axios.create({
       baseURL: this.url
     });
 
     client.post('/privmsg', {
       channel: this.channel,
-      message: this.message,
+      message: message,
       name: this.name,
       icon: this.icon
     })

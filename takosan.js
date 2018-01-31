@@ -18,14 +18,14 @@ class Takosan {
     this.name = options.name;
   }
 
-  privmsg() {
+  privmsg(message) {
     let client = _axios2.default.create({
       baseURL: this.url
     });
 
     client.post('/privmsg', {
       channel: this.channel,
-      message: this.message,
+      message: message,
       name: this.name,
       icon: this.icon
     }).then(function (response) {

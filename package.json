@@ -1,8 +1,8 @@
 {
-  "name": "takosan.js",
+  "name": "takosan",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node.js wrapper for Takosan",
+  "main": "src/takosan.js",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -16,12 +16,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/hypermkt/takosan.js.git"
   },
-  "author": "",
-  "license": "MITG",
+  "author": "Makoto Chiba",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hypermkt/takosan.js/issues"
   },
-  "homepage": "https://github.com/hypermkt/takosan.js#readme",
+  "homepage": "https://github.com/hypermkt/takosan.js",
   "dependencies": {
     "axios": "^0.17.1"
   }

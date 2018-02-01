@@ -5,7 +5,7 @@ A Node.js wrapper for [Takosan](https://github.com/kentaro/takosan).
 ## Installation
 
 ```sh
-npm install --save hypermkt/takosan.js#master
+npm install --save takosan
 ```
 
 ## Usage

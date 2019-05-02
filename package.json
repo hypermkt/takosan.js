@@ -1,13 +1,13 @@
 {
   "name": "takosan",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node.js wrapper for Takosan",
   "main": "takosan.js",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0"
   },
   "scripts": {
     "build": "babel src/takosan.js --out-file takosan.js"
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/hypermkt/takosan.js",
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.18.0"
   }
 }

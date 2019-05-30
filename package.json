@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/hypermkt/takosan.js",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.19.0"
   }
 }
